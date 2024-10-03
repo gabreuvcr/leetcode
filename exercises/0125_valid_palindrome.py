@@ -3,7 +3,7 @@ class Solution:
         s: list[str] = [letter for letter in s.lower() if letter.isalnum()]
         return s == s[::-1]
 
-    def is_palindrome2(self, s: str) -> bool:
+    def is_palindrome_2(self, s: str) -> bool:
         i, j = 0, len(s) - 1
         s = s.lower()
         while i < j:
