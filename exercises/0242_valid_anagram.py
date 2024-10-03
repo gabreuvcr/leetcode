@@ -1,14 +1,14 @@
 from collections import Counter
 
 class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
+    def is_anagram(self, s: str, t: str) -> bool:
         return Counter(s) == Counter(t)
     
-    def isAnagram2(self, s: str, t: str) -> bool:
+    def is_anagram_2(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
         
-        counter = [0 for i in range(26)]
+        counter: list[int] = [0 for _ in range(26)]
 
         for i in range(len(s)):
             counter[ord(s[i]) - ord('a')] += 1

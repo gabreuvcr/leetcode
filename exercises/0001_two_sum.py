@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, nums: list[int], target: int) -> list[int]:
+    def two_sum(self, nums: list[int], target: int) -> list[int]:
         hash: dict[int, int] = {}
 
         for i, num in enumerate(nums):
