@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/contains-duplicate/
+
 class Solution:
     def contains_duplicate(self, nums: list[int]) -> bool:
         visited: set[int] = set()

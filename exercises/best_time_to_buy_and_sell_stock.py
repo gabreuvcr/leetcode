@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 class Solution:
     def max_profit(self, prices: list[int]) -> int:
         min_price = prices[0]

@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/valid-parentheses/
+
 class Solution:
     def is_valid(self, s: str) -> bool:
         open_to_close_bracket: dict[str, str] = { '(': ')', '{': '}', '[': ']' }

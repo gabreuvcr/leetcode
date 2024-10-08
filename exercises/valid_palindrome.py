@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/valid-palindrome/
+
 class Solution:
     def is_palindrome(self, s: str) -> bool:
         filtered_s: str = ''.join(filter(str.isalnum, s.lower()))
