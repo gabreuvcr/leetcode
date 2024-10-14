@@ -1,6 +1,6 @@
-from collections import Counter
-
 #https://leetcode.com/problems/valid-anagram/
+
+from collections import Counter
 
 class Solution:
     def is_anagram(self, s: str, t: str) -> bool:
